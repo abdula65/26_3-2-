@@ -20,7 +20,7 @@ class SuperHero:
     def __len__(self):
         return f'длина фразы: {len(self.catchphrase)}'
 
-ktoto = SuperHero(name='шелли', nickname='шелька', superpower='ульта', health_points=500, catchphrase='haha')
+ktoto = SuperHero(name='шеллии', nickname='шелька', superpower='ульта', health_points=500, catchphrase='haha')
 print(ktoto.nam(), ktoto.hp(), ktoto, f'длина фразы: {len(ktoto.catchphrase)}')
 
 class Hero(SuperHero):
