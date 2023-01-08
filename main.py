@@ -3,9 +3,11 @@
 # age = int(input('сколько вам лет? '))
 # year = 2022
 
-# print(f"Hello {name.title()}на земле с {year-age}года")
-
-
+# print(f"Hello {name.title()}на земле с {year-age}года
+print(hero.__str__())
+print(hero.print_name())
+print(hero.hp())
+print(hero.__len__())
 
 # number = 23.94583
 # number = round(number, 2)
