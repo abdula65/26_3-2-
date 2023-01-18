@@ -1,0 +1,17 @@
+git init - инилицилиация
+git add . - добавление всех файлов
+git commit -m "namecommit"
+git push просто пуш
+create .gitiignore
+    .idea
+    .venv
+    .gitignore
+    __pychache__
+
+git remove remote oringin отвязка от репоситори
+git remote and origin "link" добавление ссылки
+git branch чекаем какие ветки есть
+git branch "name" добавление новой ветки
+git checkout "namebranch" переключение между ветками
+git rm --cached "name to file" удаление файла
+git rm --cached -r "name to dir" удаление папки
